@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">easyDBMS</string>
+    <string name="app_hello">
+        ---------------------------------------------\n
+        \t\t   \tWELCOME TO eDBMS\n
+        ---------------------------------------------\n
+    </string>
+</resources>

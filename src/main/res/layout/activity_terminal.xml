@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#f0eef4">
+
+    <TextView
+        android:id="@+id/tv_titleInTerminal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#bf3eff"
+        android:text=" >_ Terminal"
+        android:gravity="center|left"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+
+    <ScrollView
+        android:id="@+id/sv_terminal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@id/tv_titleInTerminal">
+
+        <EditText
+            android:id="@+id/et_terminal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:background="#f0eef4"
+            android:textStyle="bold"/>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_height="4dp"
+        android:layout_width="match_parent"
+        android:background="#5e5e00"
+        android:layout_below="@id/sv_terminal"/>
+
+    <ScrollView
+        android:id="@+id/sv_content"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@id/tv_line">
+
+        <TextView
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </ScrollView>
+
+
+</RelativeLayout>
